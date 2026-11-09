@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Maheen Arshad | UI/UX Designer &amp; Graphic Designer</title>
+<meta name="description" content="Portfolio of Maheen Arshad, a UI/UX designer, graphic designer and Computer Engineering student. Logo design, branding, mobile and web interfaces." />
+<meta name="keywords" content="Maheen Arshad, UI/UX designer, graphic designer, logo design, branding, Figma, portfolio" />
+<meta name="theme-color" content="#07100B" />
+<meta property="og:title" content="Maheen Arshad | UI/UX Designer &amp; Graphic Designer" />
+<meta property="og:description" content="UI/UX, branding and graphic design portfolio." />
+<meta property="og:type" content="website" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<header class="nav">
+  <a href="#home" class="logo">MAHEEN<span>.</span></a>
+  <nav class="links" id="links"></nav>
+  <div class="right">
+    <span class="clock" id="clock"></span>
+    <a href="#contact" class="btn sm">LET'S CONNECT</a>
+    <button class="burger" id="burger" aria-label="Toggle menu">&#9776;</button>
+  </div>
+</header>
+<main>
+  <section id="home" class="hero">
+    <div id="deco"></div>
+    <div class="hero-text">
+      <p class="eyebrow">HELLO, I'M MAHEEN!</p>
+      <h1>MAHEEN<br />ARSHAD</h1>
+      <h3>UI/UX DESIGNER &amp; GRAPHIC DESIGNER</h3>
+      <p class="lead">I'm a Computer Engineering student and creative designer passionate about combining technology, creativity, and user-centered design to build meaningful digital experiences.</p>
+      <div class="actions">
+        <a href="#projects" class="btn">EXPLORE MY WORK</a>
+        <a href="Maheen-Arshad-CV.pdf" class="btn ghost" download>DOWNLOAD CV</a>
+      </div>
+      <div class="social" id="hero-social"></div>
+    </div>
+    <div class="photo"><img src="profile.jpg" alt="Maheen Arshad" /></div>
+  </section>
+
+  <section id="about" class="sec">
+    <h2>ABOUT ME<span>.</span></h2>
+    <div class="about">
+      <p>I'm a creative UI/UX Designer and Graphic Designer with experience in logo design, branding, visual identity, and digital product design. I have successfully completed 100+ freelance projects. I specialize in designing user-centered mobile and web interfaces using Figma, creating wireframes, interactive prototypes, and reusable design systems. I also have experience with Adobe Illustrator, Photoshop, Android Studio, and web development.</p>
+      <div class="stats" id="stats"></div>
+    </div>
+  </section>
+
+  <section id="skills" class="sec"><h2>SKILLS<span>.</span></h2><div class="grid3" id="skills-grid"></div></section>
+  <section id="experience" class="sec"><h2>EXPERIENCE<span>.</span></h2><div class="timeline" id="timeline"></div></section>
+  <section id="projects" class="sec">
+    <h2>SELECTED WORK<span>.</span></h2>
+    <div class="grid3" id="projects-grid"></div>
+    <div class="center"><a class="btn" id="behance-all" target="_blank" rel="noopener noreferrer">VIEW ALL PROJECTS ON BEHANCE</a></div>
+  </section>
+  <section id="services" class="sec"><h2>SERVICES<span>.</span></h2><div class="grid4" id="services-grid"></div></section>
+
+  <section id="contact" class="sec">
+    <h2>LET'S CREATE SOMETHING AMAZING<span>.</span></h2>
+    <div class="contact">
+      <div>
+        <p class="lead">Have a project, collaboration, or opportunity in mind? Let's connect and create something meaningful.</p>
+        <ul class="clist" id="clist"></ul>
+      </div>
+      <form class="card form" id="form">
+        <input name="name" placeholder="Your name" required />
+        <input name="email" type="email" placeholder="Your email" required />
+        <input name="subject" placeholder="Subject" required />
+        <textarea name="message" rows="5" placeholder="Your message" required></textarea>
+        <button class="btn" type="submit">SEND MESSAGE</button>
+        <p class="status" id="status" role="status"></p>
+      </form>
+    </div>
+  </section>
+</main>
+<footer class="footer">
+  <h2>MAHEEN ARSHAD<span>.</span></h2>
+  <p>UI/UX DESIGNER | GRAPHIC DESIGNER</p>
+  <div class="social" id="footer-social"></div>
+  <small>&copy; 2026 Maheen Arshad. All rights reserved.</small>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
